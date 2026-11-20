@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crda_gp"
+version = "0.0.1"
+description = "My reusable package"
+requires-python = ">=3.10"
+
+dependencies = [
+    "pandas",
+    "numpy",
+    "gpytorch",
+    "torch",
+    "botorch",
+    "matplotlib",
+    "seaborn",
+    "scipy",
+    "scikit-learn",
+    "gauche",
+    "pymatgen",
+    "matminer"
+]

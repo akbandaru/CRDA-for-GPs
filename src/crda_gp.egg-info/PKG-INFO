@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: crda_gp
+Version: 0.0.1
+Summary: My reusable package
+Requires-Python: >=3.10
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: gpytorch
+Requires-Dist: torch
+Requires-Dist: botorch
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+Requires-Dist: gauche
+Requires-Dist: pymatgen
+Requires-Dist: matminer
